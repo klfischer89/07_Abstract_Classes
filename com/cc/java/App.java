@@ -13,6 +13,13 @@ public class App {
         output("Fläche Kreis: " + circle.area());
         output("Fläche Dreieck: " + triangle.area());
        
+        output("------  Differenzen ------");
+        output("Diff.:" + areaDiff(rectangle, triangle));
+
+    }
+
+    private static double areaDiff(SHape first, SHape second) {
+        return first.area() - second.area();
     }
 
     private static void output(String outputStr) {
