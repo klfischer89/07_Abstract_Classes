@@ -14,6 +14,5 @@ public class Rectangle extends SHape{
     public double area() {
         return height * width;
     }
-
     
 }
